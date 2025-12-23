@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  demo-backend:
+    image: 311153964827.dkr.ecr.ap-south-1.amazonaws.com/demo-backend:latest
+    ports:
+      - "80:80"
