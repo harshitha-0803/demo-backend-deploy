@@ -1,9 +1,14 @@
 version: 0.0
 os: linux
 
+files:
+  - source: /
+    destination: /opt/demo-backend
+
 hooks:
   AfterInstall:
     - location: scripts/deploy.sh
-      timeout: 600
+      timeout: 300
       runas: root
+
 
