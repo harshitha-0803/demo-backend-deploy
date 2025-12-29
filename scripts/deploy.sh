@@ -10,7 +10,7 @@ echo "Deploying docker stack"
 docker stack deploy \
   --with-registry-auth \
   --resolve-image always \
-  -c ../docker-stack.yml \
+  -c docker-stack.yml \
   demo-backend
 
 echo "Deployment completed"
